@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "wizardingworld",
+  "version": "${version}",
+  "name": "Wizarding World: Hogwarts Legacy",
+  "description": "A magical adventure mod with wands, spells, sorting, shops, currency, brooms and Quidditch.",
+  "authors": ["OpenAI"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.wizardingworld.WizardingWorldMod"],
+    "client": ["com.example.wizardingworld.client.WizardingWorldClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
